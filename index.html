@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+    <!-- ícones -->
+    <link rel="stylesheet" href="assets/font/style-icons.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Books Table</title>
+  </head>
+  <body>
+    <table id="table" class="table sortable-table">
+        <tr>
+          <th data-column="title" data-order="desc">
+            Título <i class="icon-arrow-up"></i>
+          </th>
+
+          <th data-column="opinion" data-order="desc">
+            Opinião <i class="icon-arrow-up i"></i>
+          </th>
+          
+          <th data-column="release" data-order="desc">
+            Lançamento <i class="icon-arrow-up i"></i>
+          </th>
+        </tr>
+
+      <tbody id="myTable">
+
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
